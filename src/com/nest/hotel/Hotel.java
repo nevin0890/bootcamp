@@ -5,7 +5,7 @@ public class Hotel {
     static int total=0;
     public static void main(String[] args) {
 
-        int y;
+        int choice;
 
         Scanner s=new Scanner(System.in);
         while (true) {
@@ -17,9 +17,9 @@ public class Hotel {
             System.out.println("5.SANDWICH 35$");
             System.out.println("6.BILL");
             System.out.println("7.exit");
-            CHOICE=s.nextInt();
+            choice=s.nextInt();
 
-            switch (CHOICE) {
+            switch (choice) {
                 case 1:
                     System.out.println("how many quantity");
                     int m = s.nextInt();

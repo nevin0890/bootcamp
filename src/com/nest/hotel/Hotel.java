@@ -11,10 +11,9 @@ public class Hotel {
         while (true) {
             System.out.println("enter the choice");
             System.out.println("1.Tea 10$");
-            System.out.println("2.COFFEE 30$");
-            System.out.println("3.BERGER 35$");
-            System.out.println("4.STEAK 15$");
-            System.out.println("5.SANDWICH 35$");
+            System.out.println("2.Cake 30$");
+            System.out.println("3.juice 35$");
+            System.out.println("4.ice15$");
             System.out.println("6.BILL");
             System.out.println("7.exit");
             choice=s.nextInt();
